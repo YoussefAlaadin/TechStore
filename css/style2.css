@@ -1,0 +1,154 @@
+i{
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+}
+.searDown{
+  position: absolute;
+  bottom: 6px;
+  left: 95%;
+  font-size: 1.7rem;
+  cursor:default;
+}
+#links button{
+    width: 80px;
+}
+
+#userInfo{
+    display: none;
+}
+.shoppingCart{
+    margin-right: 30px;
+    position: relative;
+}
+.cartIcon{
+    font-size: 25px;
+    color: white;
+}
+.badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: hwb(198 6% 32%);
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    left: 22px;
+    top: -10px;
+    border-radius: 100% !important;
+}
+.welcome{
+    margin-right: 25px;
+}
+.line{
+    border-bottom: 1px solid grey;
+    padding-bottom: 60px;
+}
+.card{
+  transition: all 0.3s;
+}
+.card:hover{
+  border-color:  hwb(198 16% 11%) !important;
+  border-width: 0.122rem;
+}
+.productItem{
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.productItem:hover{
+  transform: scale(1.03);
+}
+
+.productImg{
+    height: 250px;
+}
+.productAction .add{
+    background-color: hwb(198 6% 18%);
+    width: 163.5px;
+}
+.productAction .add:hover{
+    background-color: hwb(198 6% 32%);
+}
+.productAction i{
+    font-size: 22px;
+    margin: auto 0 20px;
+}
+.productTitle, .productPrice, .productCate, .productAction .btn{
+  font-size: 1rem; /* Adjust based on your need */
+}
+
+@media (max-width: 768px) {
+  .productTitle, .productPrice, .productCate, .productAction .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .productTitle, .productPrice, .productCate , .productAction {
+    font-size: 0.8rem;
+  }
+}
+@media(max-width: 576px){
+  .btn{
+    max-width: 80px;
+    font-size: 0.7rem !important;
+  }
+}
+.cProducts{
+ padding: 0 18rem !important; /* Adjust based on your need */
+}
+
+
+@media (max-width: 1400px) {
+  .cProducts {
+   padding: 0 5rem !important;
+  }
+}
+@media (max-width: 1200px) {
+  .cProducts {
+   padding: 0 5rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .cProducts {
+   padding: 0 5rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .cProducts {
+   padding: 0 5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .cProducts{
+   padding: 0  !important;
+  }
+}
+.input-group{
+    padding: 0 95px;
+}
+
+.subTot, .price, #viewCart{
+    display: none;
+}
+
+.itemQuantity{
+width: 40px;
+text-align: center;
+}
+
+.itemQuantity span{
+  line-height: 40px;
+font-size: 1.2rem;
+}
+
+.deleteBtn{
+  background-color: rgba(255, 0, 0, 0.74) !important;
+  transition: 0.5s !important;
+} 

@@ -1,0 +1,158 @@
+i {
+  cursor: pointer;
+}
+body {
+  height: 2000px;
+}
+a {
+  text-decoration: none !important;
+}
+li {
+  list-style: none;
+}
+
+.productItem {
+  font-weight: 400;
+}
+
+.productImg {
+  height: 250px;
+}
+.productTitle,
+.productPrice,
+.productCate,
+.productAction .btn {
+  font-size: 1rem; /* Adjust based on your need */
+}
+
+@media (max-width: 768px) {
+  .productTitle,
+  .productPrice,
+  .productCate,
+  .productAction .btn {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .productTitle,
+  .productPrice,
+  .productCate,
+  .productAction .btn {
+    font-size: 1rem;
+  }
+}
+.cProducts {
+  padding: 0 18rem !important; /* Adjust based on your need */
+}
+
+@media (max-width: 1400px) {
+  .cProducts {
+    padding: 0 5rem !important;
+  }
+}
+@media (max-width: 1200px) {
+  .cProducts {
+    padding: 0 5rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .cProducts {
+    padding: 0 2rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .cProducts {
+    padding: 0 10rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .cProducts {
+    padding: 0 10rem !important;
+  }
+}
+
+.input-group {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.productDesc {
+  margin-left: 20px;
+}
+.cardDesc {
+  margin-left: 50px;
+}
+.quantity-price {
+  margin-left: 20px;
+}
+.itemQuantity {
+  width: 2.5em;
+  text-align: center;
+}
+
+.itemQuantity span {
+  line-height: 40px;
+  font-size: 1.2rem;
+}
+
+.deleteBtn {
+  background-color: rgba(255, 0, 0, 0.74) !important;
+  transition: 0.5s !important;
+  display: block !important;
+}
+
+.priceTotal {
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.empty {
+  font-weight: 500;
+  display: none;
+  text-align: center;
+  margin-top: 20%;
+}
+.line {
+  border-bottom: 1px solid grey;
+  padding-bottom: 60px;
+}
+
+.favorites h2 {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+.favLine {
+  width: 250px;
+  height: 2px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.productAction i {
+  font-size: 30px;
+  display: block;
+  text-align: right;
+}
+.favorites .productAction {
+  margin-bottom: 80px;
+}
+
+.swiper {
+  padding-bottom: 80px !important;
+  width: 100%;
+  max-width: 50rem;
+  padding: 20px 0;
+}
+.productItem {
+  width: 100%;
+  max-width: 350px !important;
+  margin: 0 30px;
+  height: 500px !important;
+}
+.favorites .productImg {
+  height: 350px !important;
+}
